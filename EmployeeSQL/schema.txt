@@ -1,0 +1,34 @@
+departments.csv
+
+    dept_no = primary key, VARCHAR
+    dept_name = VARCHAR
+
+dept_emp.csv
+
+    emp_no = foreign key, INT
+    dept_no = foreign key, VARCHAR
+
+dept_manager.csv
+
+    emp_no = foreign key, INT
+    dept_no = foreign, key
+
+employees.csv
+
+    emp_no = primary key, INT
+    emp_title = foreign key, VARCHAR
+    birth_date = DATE
+    first_name = VARCHAR
+    last_name = VARCHAR
+    sex = VARCHAR
+    hire_date = DATE
+
+titles.csv
+    
+    title_id = primary key, VARCHAR
+    title = VARCHAR
+
+salaries.csv
+
+    emp_no = foreign key, INT
+    salary = INT
